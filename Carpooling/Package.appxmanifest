@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest" xmlns:m2="http://schemas.microsoft.com/appx/2013/manifest">
+  <Identity Name="6396d39a-48c5-4849-811b-de9345d99127" Publisher="CN=Ivan" Version="1.0.0.0" />
+  <Properties>
+    <DisplayName>Carpooling</DisplayName>
+    <PublisherDisplayName>Ivan</PublisherDisplayName>
+    <Logo>Assets\StoreLogo.png</Logo>
+  </Properties>
+  <Prerequisites>
+    <OSMinVersion>6.3.0</OSMinVersion>
+    <OSMaxVersionTested>6.3.0</OSMaxVersionTested>
+  </Prerequisites>
+  <Resources>
+    <Resource Language="x-generate" />
+  </Resources>
+  <Applications>
+    <Application Id="App" Executable="$targetnametoken$.exe" EntryPoint="Carpooling.App">
+      <m2:VisualElements DisplayName="Carpooling" Square150x150Logo="Assets\Logo.png" Square30x30Logo="Assets\SmallLogo.png" Description="Carpooling" ForegroundText="light" BackgroundColor="#5E76D0" ToastCapable="true">
+        <m2:SplashScreen Image="Assets\SplashScreen.png" BackgroundColor="#5E76D0" />
+      </m2:VisualElements>
+    </Application>
+  </Applications>
+  <Capabilities>
+    <Capability Name="internetClient" />
+  </Capabilities>
+</Package>
